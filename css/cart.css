@@ -1,0 +1,142 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, sans-serif;
+  padding: 0;
+  width: 100%;
+}
+
+header .promo {
+  background-color: #454f5b;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  gap: 350px;
+  color: white;
+  text-align: center;
+  padding: 15px 120px;
+  font-size: 14px;
+}
+
+header .promo a {
+  color: white;
+  text-decoration: underline;
+  margin-left: 20px;
+}
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 20px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.logo-g {
+  color: black;
+}
+
+.logo-s {
+  color: #1e90ff;
+}
+
+nav ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #333;
+}
+
+.contact {
+  display: flex;
+  align-items: center;
+}
+
+.contact .phone a {
+  text-decoration: none;
+  color: #333;
+  margin-right: 20px;
+}
+
+.contact .icons a {
+  margin-left: 10px;
+}
+
+.contact .icons img {
+  width: 24px;
+  height: 24px;
+}
+
+.container {
+  display: flex;
+  padding: 20px;
+}
+
+.cart {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+main {
+  display: flex;
+  justify-content: center;
+  padding-top: 70px;
+}
+.cart-item {
+  background: #82a1ff;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+.cart-item:hover {
+  transition: all 1s cubic-bezier(0.15, 0.83, 0.66, 1);
+  color: rgb(0, 0, 0);
+  transform: scale(1.1) translateY(-3px);
+}
+
+.product-image {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.product-details {
+  flex: 1;
+}
+
+.product-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.product-brand {
+  color: #777;
+}
+
+.product-price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+}
